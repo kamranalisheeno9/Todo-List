@@ -1,0 +1,135 @@
+.main{
+    text-align: center;
+
+}
+
+.innercolumn{
+    margin: 5% auto !important;
+}
+.column{
+    padding-bottom: 2%;
+    margin: 0 auto !important;
+
+}
+
+
+.backgroundOne{
+    display: none;
+}
+button{
+    border: none !important;
+    outline: none !important;
+    font-size: 22px !important;
+    margin-top: 1% !important;
+    background-color: rgb(166, 255, 0);
+    border-radius: 15px !important;
+    transition: all 0.1s linear ;
+    
+}
+button:active{
+    background-color: rgb(255, 0, 0);
+    
+}
+button:active{
+    color: white;
+}
+#add,#dltall{
+    width: 35%;
+}
+#btncolor,#firstBtncolor{
+    width: 70%;
+
+}
+.inp{
+    margin-top: 2%;
+    border: none;
+    font-size: 22px;
+    width:100%;
+    border-radius: 25px;
+    height: 45%;
+    padding-left: 15px;
+
+    margin-bottom: 4%;
+    box-shadow: 0px 0px 15px grey;
+}
+.inp:focus{
+    outline: none;
+}
+.title{
+    text-align: center;
+    background-color: rgb(0, 248, 132);
+    padding: 5px;
+
+}
+.list{
+
+    margin-top: 1%;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid red;
+    /* padding-top: 1%; */
+}
+.btnListDlt,.btnListAdd{
+   margin-left: 1%;
+   margin-right: 1%;
+    margin-top: 0px !important;
+   float: right;
+    border-radius: 5px !important;
+}
+
+@media only screen and (max-width:500px){
+
+    .container{
+        margin-top: 7%;
+    }
+    .innercolumn{
+        margin: 8% auto !important;
+    }
+
+    button{
+        font-size: 18px !important;
+        border-radius: 5px !important;
+        
+    }
+    .inp{
+        margin-top: 2%;
+        border: none;
+        font-size: 18px;
+        width:100%;
+        border-radius: 5px;
+        height: 45%;
+        padding-left: 15px;
+        margin-bottom: 3%;
+        box-shadow: 0px 0px 10  px grey;
+    }
+    .title{
+        text-align: center;
+        background-color: rgb(0, 248, 132);
+        padding: 10px;
+        font-size: 28px;
+    }
+    .list{
+    
+        margin-top: 1%;
+        font-size: 17px;
+        padding-bottom: 10px;
+        border-bottom: 4px double red;
+        /* padding-top: 1%; */
+    }
+    .btnListDlt,.btnListAdd{
+       margin-left: 1%;
+       margin-right: 1%;
+
+        margin-top: 0px !important;
+       float: right;
+        border-radius: 5px !important;
+    }
+    .btnListDlt {
+        font-size: 15px !important;
+    }
+   
+    
+    
+
+
+}
